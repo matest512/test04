@@ -1,8 +1,7 @@
 extraction:
     cpp:
         before_index:
-            command:
-                - apt-get install autoconf2.13
+            - apt-get install autoconf2.13
         index:
             build_command:
                 - ./build.sh
