@@ -1,0 +1,13 @@
+extraction:
+    cpp:
+        index:
+            build_command:
+                - ./build.sh
+    javascript:
+        index:
+            filters:
+                - exclude: "**/*"
+    python:
+        index:
+            filters:
+                - exclude: "**/*"
