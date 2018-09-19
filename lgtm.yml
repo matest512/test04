@@ -1,7 +1,8 @@
 extraction:
     cpp:
-        before_index:
-            - autoconf2.13 -h
+        prepare:
+            packages:
+                - autoconf2.13
         index:
             build_command:
                 - ./build.sh
