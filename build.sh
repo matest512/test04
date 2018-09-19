@@ -1,3 +1,4 @@
+SHELL=/bin/bash
 touch ./data/js/src/configure
 cd data/js/src
 mkdir obj
